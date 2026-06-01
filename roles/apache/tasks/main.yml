@@ -1,9 +1,9 @@
 ---
-# tasks file for httpd
-- name: install nginx
-  ansible.builtin.apt:
-    name: nginx
-    state: present
+# tasks file for apache
+#- name: install nginx
+#  ansible.builtin.apt:
+#    name: nginx
+#    state: present
 - name: install apache2
   ansible.builtin.apt:
     name: apache2

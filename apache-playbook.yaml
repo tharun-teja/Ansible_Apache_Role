@@ -1,6 +1,6 @@
 ---
 - name: firstplaybook
-  hosts: localhost
+  hosts: webservers
   become: true
   roles:
-    - httpd
+    - apache
