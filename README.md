@@ -9,22 +9,4 @@ Ansible automation to install, enable, and configure Apache with a sample index 
    ```bash
    ansible-playbook playbooks/site.yml
 
-## Repository Structure
-ansible-apache/
-├── ansible.cfg
-├── inventory/
-│   └── hosts.ini
-├── playbooks/
-│   └── site.yml
-└── roles/
-    └── httpd/
-        ├── tasks/
-        │   └── main.yml
-        ├── handlers/
-        │   └── main.yml
-        ├── templates/
-        │   └── index.html.j2
-        ├── defaults/
-        │   └── main.yml
-        └── meta/
-            └── main.yml
+
