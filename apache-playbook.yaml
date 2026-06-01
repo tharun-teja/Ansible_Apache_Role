@@ -1,0 +1,6 @@
+---
+- name: firstplaybook
+  hosts: localhost
+  become: true
+  roles:
+    - httpd
